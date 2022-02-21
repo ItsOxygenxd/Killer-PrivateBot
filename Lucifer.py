@@ -29,6 +29,7 @@ from Config import (
     STRING8,
     STRING9,
     STRING_10,
+    STRING_11,
     SUDO_USERS,
 )
 from Utils import RAID, RRAID
@@ -45,7 +46,7 @@ seven = STRING7
 eight = STRING8
 ninth = STRING9
 tenth = STRING_10
-
+eleventh = STRING_11
 
 luc = ""
 luc2 = ""
@@ -80,22 +81,22 @@ async def start_Ustad():
     if smex:
         session_name = str(smex)
         print("String 1 Found")
-        luc = TelegramClient(StringSession(session_name), a, b)
+        kil = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 1")
-            await luc.start()
-            botme = await luc.get_me()
+            await kil.start()
+            botme = await kil.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            luc = "smex"
+            kil = "smex"
             print(e)
     else:
         print("Session 1 not Found")
-        session_name = "LuciXSpam"
-        luc = TelegramClient(session_name, a, b)
+        session_name = KillerXSpam"
+        kil = TelegramClient(session_name, a, b)
         try:
-            await luc.start()
+            await kil.start()
         except Exception:
             pass
 
@@ -105,16 +106,16 @@ async def start_Ustad():
         luc2 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 2")
-            await luc2.start()
-            botme = await luc2.get_me()
+            await kil2.start()
+            botme = await kil2.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
     else:
         print("Session 2 not Found")
-        session_name = "Baapjii"
-        luc2 = TelegramClient(session_name, a, b)
+        session_name = "Killer"
+        kil2 = TelegramClient(session_name, a, b)
         try:
             await luc2.start()
         except Exception:
@@ -127,7 +128,7 @@ async def start_Ustad():
         try:
             print("Booting Up The Client 3")
             await luc3.start()
-            botme = await luc3.get_me()
+            botme = await kil3.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -137,7 +138,7 @@ async def start_Ustad():
         session_name = "startup"
         luc3 = TelegramClient(session_name, a, b)
         try:
-            await luc3.start()
+            await kil3.start()
         except Exception:
             pass
 
@@ -148,7 +149,7 @@ async def start_Ustad():
         try:
             print("Booting Up The Client 4")
             await luc4.start()
-            botme = await luc4.get_me()
+            botme = await kil4.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -158,7 +159,7 @@ async def start_Ustad():
         session_name = "startup"
         luc4 = TelegramClient(session_name, a, b)
         try:
-            await luc4.start()
+            await kil4.start()
         except Exception:
             pass
 
@@ -168,7 +169,7 @@ async def start_Ustad():
         luc5 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 5")
-            await luc5.start()
+            await kil5.start()
             botme = await luc5.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -179,7 +180,7 @@ async def start_Ustad():
         session_name = "startup"
         luc5 = TelegramClient(session_name, a, b)
         try:
-            await luc5.start()
+            await kil5.start()
         except Exception:
             pass
 
@@ -189,8 +190,8 @@ async def start_Ustad():
         luc6 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 6")
-            await luc6.start()
-            botme = await luc6.get_me()
+            await kil6.start()
+            botme = await kil6.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -200,7 +201,7 @@ async def start_Ustad():
         session_name = "startup"
         luc6 = TelegramClient(session_name, a, b)
         try:
-            await luc6.start()
+            await kil6.start()
         except Exception:
             pass
 
@@ -210,8 +211,8 @@ async def start_Ustad():
         luc7 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 7")
-            await luc7.start()
-            botme = await luc7.get_me()
+            await kil7.start()
+            botme = await kil7.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -221,7 +222,7 @@ async def start_Ustad():
         session_name = "startup"
         luc7 = TelegramClient(session_name, a, b)
         try:
-            await luc7.start()
+            await kil7.start()
         except Exception:
             pass
 
@@ -231,8 +232,8 @@ async def start_Ustad():
         luc8 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 8")
-            await luc8.start()
-            botme = await luc8.get_me()
+            await kil8.start()
+            botme = await kil8.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -242,7 +243,7 @@ async def start_Ustad():
         session_name = "startup"
         luc8 = TelegramClient(session_name, a, b)
         try:
-            await luc8.start()
+            await kil8.start()
         except Exception:
             pass
 
@@ -253,7 +254,7 @@ async def start_Ustad():
         try:
             print("Booting Up The Client 9")
             await luc9.start()
-            botme = await luc9.get_me()
+            botme = await kil9.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -263,7 +264,7 @@ async def start_Ustad():
         session_name = "startup"
         luc9 = TelegramClient(session_name, a, b)
         try:
-            await luc9.start()
+            await kil9.start()
         except Exception:
             pass
 
@@ -273,8 +274,8 @@ async def start_Ustad():
         luc10 = TelegramClient(StringSession(session_name), a, b)
         try:
             print("Booting Up The Client 10")
-            await luc10.start()
-            botme = await luc10.get_me()
+            await kil10.start()
+            botme = await kil10.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -282,9 +283,29 @@ async def start_Ustad():
     else:
         print("Session 10 not Found")
         session_name = "startup"
-        luc10 = TelegramClient(session_name, a, b)
+        kil10 = TelegramClient(session_name, a, b)
         try:
-            await luc10.start()
+            await kil10.start()
+        except Exception:
+            pass
+    if eleventh:
+        session_name = str(eleventh)
+        print("String 11 Found")
+        kill11 = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 10")
+            await kil11.start()
+            botme = await kil11.get_me()
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+    else:
+        print("Session 11 not Found")
+        session_name = "startup"
+        kil11 = TelegramClient(session_name, a, b)
+        try:
+            await kil11.start()
         except Exception:
             pass
 
@@ -308,21 +329,22 @@ async def gifspam(e, smex):
     except Exception:
         pass
 
-ALIVE_PIC = "https://telegra.ph/file/b66e8636032eb17e9c352.jpg"
+ALIVE_PIC = "https://telegra.ph/file/560dbeb92bbe56b33a20b.jpg"
 import os
-lucifer = os.environ.get("ALIVE_PIC",None)
-if not lucifer:
- lucifer ="https://telegra.ph/file/b66e8636032eb17e9c352.jpg"
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+killer = os.environ.get("ALIVE_PIC",None)
+if not killer:
+ killer ="https://telegra.ph/file/560dbeb92bbe56b33a20b.jpg"
+@kil.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil3.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil4.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil5.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil6.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil7.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil8.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil9.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil10.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
+@kil11.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 ####
 async def alive(event):
   if event.sender_id in SMEX_USERS:
@@ -332,15 +354,15 @@ async def alive(event):
     s = f"[{kk}](tg://user?id={k})"
     tf = f"""
 **
-   ᎽϴႮᎡ ՏᏢᎪᎷ ᏴϴͲ ᏆՏ ᏔϴᎡᏦᏆΝᏀ 
+   KILLER ՏᏢᎪᎷ ᏴϴͲ ᏆՏ ᏔϴᎡᏦᏆΝᏀ 
 
    ᏢᎽͲᎻϴΝ - 3.0
    ͲᎬᏞᎬͲᎻϴΝ - 1.0
    ᏢᏞႮᏀᏆΝՏ - 8 ϴҒ 8
-   ᎠᎬᏙՏ - **[ OXYGEN ](https://t.me/Its_Oxygen_Xd)
+   ᎠᎬᏙՏ - **[ KRISHNA ](https://t.me/Krishna_SpamBot)
    ᎡᎬᏢϴ - ՏϴϴΝ 
-   ՏႮᏢᏢϴᎡͲ - **[ 🔥BAPP JII🔥](https://t.me/Baapjiiiiiiiiii)
-   ϴᏔΝᎬᎡ - **[ OXIDE ](https://t.me/legit_adder_001)
+   ՏႮᏢᏢϴᎡͲ - **[ 👅KILLER SPAM👅](https://t.me/KillerSquad)
+   ϴᏔΝᎬᎡ - **[ KRISHNA ](https://t.me/Innocent_Boy_Krish_40)
 
 """
     await event.client.send_file(event.chat_id,lucifer,caption=tf, force_document=False, link_preview=False)
@@ -351,70 +373,73 @@ from time import sleep
 
 
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.join"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil2.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil3.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil4.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil5.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil6.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil7.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil8.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil9.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil10.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil11.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
     if e.sender_id in SMEX_USERS:
         Ustad = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = Ustad[0]
-            text = "Joining..."
+            text = "Jaa raha members badhane..."
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("Succesfully badha diye members")
             except Exception as e:
                 await event.edit(str(e))
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
 
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+kil.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@kil2.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kil3.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kil4.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kil5.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kil6.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kil7.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kil8.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kil9.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kil10.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kil11.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
     if e.sender_id in SMEX_USERS:
         Ustad = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = Ustad[0]
-            text = "Joining...."
+            text = "Jaa rahe private me v...."
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("Succesfully private m v badha diye members")
             except Exception as e:
                 await event.edit(str(e))
-        else:
+        else:e 
             await e.reply(usage, parse_mode=None, link_preview=None)
 
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.leave"))        
+kil.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil2.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil3.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil4.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil5.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil6.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil7.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil8.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil9.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil10.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@kil11.on(events.NewMessage(incoming=True, pattern=r"\.leave"))        
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
@@ -422,11 +447,11 @@ async def _(e):
         if len(e.text) > 7:
             bc = jatt[0]
             bc = int(bc)
-            text = "Leaving....."
+            text = "Jaa raha hu be wapis aaunga ....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("Nikal Gya be chal aram karne de")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -435,16 +460,17 @@ async def _(e):
 
 
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+kil.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil2.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil3.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil4.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil5.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil6.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil7.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil8.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil9.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil10.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@kil11.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -479,16 +505,17 @@ async def spam(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+kil.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil2.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil3.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil4.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil5.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil6.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil7.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil8.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil9.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil10.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@kil11.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -527,16 +554,17 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None)
 
 
-@luc.on(events.NewMessage(incoming=True))
-@luc2.on(events.NewMessage(incoming=True))
-@luc3.on(events.NewMessage(incoming=True))
-@luc4.on(events.NewMessage(incoming=True))
-@luc5.on(events.NewMessage(incoming=True))
-@luc6.on(events.NewMessage(incoming=True))
-@luc7.on(events.NewMessage(incoming=True))
-@luc8.on(events.NewMessage(incoming=True))
-@luc9.on(events.NewMessage(incoming=True))
-@luc10.on(events.NewMessage(incoming=True))
+@kil.on(events.NewMessage(incoming=True))
+@kil2.on(events.NewMessage(incoming=True))
+@kil3.on(events.NewMessage(incoming=True))
+@kil4.on(events.NewMessage(incoming=True))
+@kil5.on(events.NewMessage(incoming=True))
+@kil6.on(events.NewMessage(incoming=True))
+@kil7.on(events.NewMessage(incoming=True))
+@kil8.on(events.NewMessage(incoming=True))
+@kil9.on(events.NewMessage(incoming=True))
+@kil10.on(events.NewMessage(incoming=True))
+@kil11.on(events.NewMessage(incoming=True))
 async def _(event):
     global que
     queue = que.get(event.sender_id)
@@ -553,39 +581,41 @@ async def _(event):
 
 
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+kil.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil2.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil3.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil4.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil5.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil6.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil7.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil8.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil9.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil10.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@kil11.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "Pong!"
+        text = "Pong Ting Tong!"
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"💥 CHODNE KO TYAR H BRO ❤️!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩 🔥")
+        await event.edit(f"👀 PING PONG TING TONG GILLI CHU HEHE❤️!\n`{ms}` 𝗺𝘀\n    #KillerSpam 🔥")
 
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+kil.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil2.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil3.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil4.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil5.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil6.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil7.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil8.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil9.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil10.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@kil11.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nRuk jaa muth maar leta hu 😂😆 ..."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nRuko jara sabar karo 👁👁 ..."
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
@@ -631,19 +661,20 @@ async def restart(e):
         quit()
 
 
-@luc.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@luc2.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@luc3.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@luc4.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@luc5.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@luc6.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@luc7.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@luc8.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@luc9.on(events.NewMessage(incoming=True, pattern=r"\.help"))
-@luc10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+kil.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil2.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil3.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil4.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil5.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil6.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil7.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil8.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil9.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@kil11.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n༒ᏢᏆΝᏀ\n༒ᎡᎬՏͲᎪᎡͲ\n༒ᎫϴᏆΝ\n༒ᏞᎬᎪᏙᎬ\n༒ᏢᎫϴᏆΝ\n༒ᏴᏆᏀՏᏢᎪᎷ\n༒ᎡᎪᏆᎠ\n༒ᎡᎬᏢᏞᎽᎡᎪᏆᎠ\n༒ᎪᏞᏆᏙᎬ\n༒ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒ OXIGEN & OXIDE (🔥BAAP JII 🔥) ༒"
+       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n༒ᏢᏆΝᏀ\n༒ᎡᎬՏͲᎪᎡͲ\n༒ᎫϴᏆΝ\n༒ᏞᎬᎪᏙᎬ\n༒ᏢᎫϴᏆΝ\n༒ᏴᏆᏀՏᏢᎪᎷ\n༒ᎡᎪᏆᎠ\n༒ᎡᎬᏢᏞᎽᎡᎪᏆᎠ\n༒ᎪᏞᏆᏙᎬ\n༒ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒ KRISHNA (👅KILLER👅 ) ༒"
        await e.reply(text, parse_mode=None, link_preview=None )
 
 
@@ -653,27 +684,27 @@ text = """ """
 print(text)
 print("")
 print(
-    "CONGRATULATIONS 🥳🥳..UR Spam Bots Ready to use"
+    "JAA BETE 🤟🤟..MOJ KAR BAN GYA TERA KILLER SPAM BOT"
 )
 if len(sys.argv) not in (1, 3, 4):
     try:
-        luc.disconnect()
+        kil.disconnect()
     except Exception:
         pass
     try:
-        luc2.disconnect()
+        kil2.disconnect()
     except Exception:
         pass
     try:
-        luc3.disconnect()
+        kil3.disconnect()
     except Exception:
         pass
     try:
-        luc4.disconnect()
+        kil4.disconnect()
     except Exception:
         pass
     try:
-        luc5.disconnect()
+        kil5.disconnect()
     except Exception:
         pass
     try:
@@ -681,59 +712,67 @@ if len(sys.argv) not in (1, 3, 4):
     except Exception:
         pass
     try:
-        luc7.disconnect()
+        kil7.disconnect()
     except Exception:
         pass
     try:
-        luc8.disconnect()
+        kil8.disconnect()
     except Exception:
         pass
     try:
-        luc9.disconnect()
+        kil9.disconnect()
     except Exception:
         pass
     try:
-        luc10.disconnect()
+        kil10.disconnect()
+    except Exception:
+        pass
+    try:
+        kil11.disconnect()
     except Exception:
         pass
 else:
     try:
-        luc.run_until_disconnected()
+        kil.run_until_disconnected()
     except Exception:
         pass
     try:
-        luc2.run_until_disconnected()
+        kil2.run_until_disconnected()
     except Exception:
         pass
     try:
-        luc3.run_until_disconnected()
+        kil3.run_until_disconnected()
     except Exception:
         pass
     try:
-        luc4.run_until_disconnected()
+        kil4.run_until_disconnected()
     except Exception:
         pass
     try:
-        luc5.run_until_disconnected()
+        kil5.run_until_disconnected()
     except Exception:
         pass
     try:
-        luc6.run_until_disconnected()
+        kil6.run_until_disconnected()
     except Exception:
         pass
     try:
-        luc7.run_until_disconnected()
+        kil7.run_until_disconnected()
     except Exception:
         pass
     try:
-        luc8.run_until_disconnected()
+        kil8.run_until_disconnected()
     except Exception:
         pass
     try:
-        luc9.run_until_disconnected()
+        kil9.run_until_disconnected()
     except Exception:
         pass
     try:
-        luc10.run_until_disconnected()
+        kil10.run_until_disconnected()
+    except Exception:
+        pass
+    try:
+        kil11.run_until_disconnected()
     except Exception:
         pass
