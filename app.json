@@ -1,6 +1,6 @@
 {
-  "name": "SPAMBOTS",
-  "description": "A Powerful Telegram Spam Bots",
+  "name": "KILLERSPAMBOTS",
+  "description": "A Powerful Telegram Spam Bots Made By Krishna",
   "keywords": [
     "spambot",
     "telegram",
@@ -67,9 +67,14 @@
         "value": "",
         "required": false
       },
+        "STRING11": {
+        "description": "Bot String Session",
+        "value": "",
+        "required": true
+      },
         "SUDO_USERS": {
         "description": "Sudo Users Id",
-        "value": "",
+        "value": "5278710163",
         "required": true
       }
   },
