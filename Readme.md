@@ -1,7 +1,7 @@
-# 【BAAP】 【JII】 【CHODNE】 【KI】 【MACHINE】
+# 【KILLER】 【SPAM】 【TYAAR】 【H】 【CHODNE】
 ## 🚀 Deploy on Heroku 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anish00560/BaapJispamprivate)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Alocholic-Krish/Killer-PrivateBot)
 
 ## String Session FOR  BOT AND IDS 
 
