@@ -48,21 +48,21 @@ ninth = STRING9
 tenth = STRING_10
 eleventh = STRING_11
 
-luc = ""
-luc2 = ""
-luc3 = ""
-luc4 = ""
-luc5 = ""
-luc6 = ""
-luc7 = ""
-luc8 = ""
-luc9 = ""
-luc10 = ""
-
+kil = ""
+kil2 = ""
+kil3 = ""
+kil4 = ""
+kil5 = ""
+kil6 = ""
+kil7 = ""
+kil8 = ""
+kil9 = ""
+kil10 = ""
+kil11 = ""
 
 que = {}
 
-SMEX_USERS = [2020051281]
+SMEX_USERS = [5278710163]
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
